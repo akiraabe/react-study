@@ -29,8 +29,8 @@ export const App: React.FC = () => {
 
   return (
     <>
-      <p>きのこ: {vote.kinoko}</p>
-      <p>たけのこ: {vote.takenoko}</p>
+      <p>きのこ : {vote.kinoko}</p>
+      <p>たけのこ : {vote.takenoko}</p>
       <button onClick={voteKinoko}>きのこ</button>
       <button onClick={voteTakenoko}>たけのこ</button>
     </>
